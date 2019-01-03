@@ -1,0 +1,39 @@
+{
+  "name": "alfred-workflow-calendar",
+  "version": "0.0.0",
+  "description": "My calendar manager",
+  "license": "MIT",
+  "repository": "houxinaxin/alfred-workflow-calendar",
+  "author": {
+    "name": "hxx",
+    "email": "houxianxin051@foxmail.com",
+    "url": "github.com/houxianxin"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "osa2": "^0.2.3"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
